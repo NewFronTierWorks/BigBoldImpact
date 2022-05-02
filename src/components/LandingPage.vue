@@ -4,7 +4,7 @@
       <v-row class="text-center" height="100%">
         <v-col cols="12">
           <v-img
-            :src="require('https://nftw.mypinata.cloud/ipfs/QmNw1Ww7PSSViKBxadXYvF6TNaL7FB4eu41WWJbUpyT62W')"
+            src="https://nftw.mypinata.cloud/ipfs/QmNw1Ww7PSSViKBxadXYvF6TNaL7FB4eu41WWJbUpyT62W"
             class="my-3"
             contain
             height="61.8%"
