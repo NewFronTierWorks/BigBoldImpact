@@ -4,7 +4,7 @@
       <v-row class="text-center" height="100%">
         <v-col cols="12">
           <v-img
-            :src="require('../assets/BBI-1920x1080.jpg')"
+            :src="require('@/assets/BBI-1920x1080.jpg')"
             class="my-3"
             contain
             height="61.8%"
