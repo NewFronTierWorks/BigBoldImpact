@@ -10,7 +10,7 @@
           alt="Big Bold Impact"
           class="shrink mr-2"
           contain
-          src="..\src\assets\BBI-1920x1080.jpg"
+          src="https://nftw.mypinata.cloud/ipfs/QmNw1Ww7PSSViKBxadXYvF6TNaL7FB4eu41WWJbUpyT62W"
           transition="scale-transition"
           width="100"
         />
