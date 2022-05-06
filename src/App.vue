@@ -6,6 +6,8 @@
       dark
     >
       <div class="d-flex align-center">
+        <v-btn to="/" plain x-large>
+
         <v-img
           alt="Big Bold Impact"
           class="shrink mr-2"
@@ -14,8 +16,11 @@
           transition="scale-transition"
           width="100"
         />
+        </v-btn>
 
       </div>
+      <v-spacer></v-spacer>
+      <v-btn color="pink" to="/playroom">Are You New to NFTs?<v-icon class="ml-2">mdi-head-lightbulb-outline</v-icon></v-btn>
 
       <v-spacer></v-spacer>
 
@@ -32,6 +37,7 @@
     <v-main>
       <router-view/>
     </v-main>
+    <v-footer></v-footer>
   </v-app>
 </template>
 
@@ -45,3 +51,10 @@ export default {
   }),
 };
 </script>
+
+<style>
+
+h1, h2 {	font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; text-transform: uppercase;
+}
+
+</style>
