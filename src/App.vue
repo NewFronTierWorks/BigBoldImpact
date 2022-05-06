@@ -20,7 +20,7 @@
 
       </div>
       <v-spacer></v-spacer>
-      <v-btn color="pink" to="/playroom">Are You New to NFTs?<v-icon class="ml-2">mdi-head-lightbulb-outline</v-icon></v-btn>
+      <v-btn color="pink" to="/playroom">New to NFTs?<v-icon class="ml-2">mdi-head-lightbulb-outline</v-icon></v-btn>
 
       <v-spacer></v-spacer>
 
@@ -28,16 +28,36 @@
         href="https://NewFronTierWorks.com"
         target="_blank"
         text
+        class="d-none d-sm-flex"
       >
         <span class="mr-2">NFTW</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        <v-icon >mdi-open-in-new</v-icon>
       </v-btn>
     </v-app-bar>
 
     <v-main>
       <router-view/>
     </v-main>
-    <v-footer></v-footer>
+    <v-footer dark app>
+      <v-btn
+        to="/privacy-policy"
+        text
+        class=""
+      >
+        <span class="mr-2">Privacy Policy</span>
+      </v-btn>
+      <v-spacer></v-spacer>
+      <v-btn
+        href="https://NewFronTierWorks.com"
+        target="_blank"
+        text
+        class=""
+      >
+        <span class="mr-2">&copy; 2022 NFTW</span>
+        <v-icon >mdi-open-in-new</v-icon>
+      </v-btn>
+
+    </v-footer>
   </v-app>
 </template>
 
