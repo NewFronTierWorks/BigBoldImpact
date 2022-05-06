@@ -1,6 +1,5 @@
 <template>
     <v-container fluid style="height: 100%">
-        <v-layout fill-height>
             <v-row class="align-stretch text-center" height="100%">
                 <v-col cols="12" lg="8" md="12" sm="12">
                     <video-player></video-player>
@@ -10,7 +9,6 @@
                     <card-stream></card-stream>
                 </v-col>
             </v-row>
-        </v-layout>
     </v-container>
 </template>
 
