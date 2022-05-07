@@ -1,80 +1,86 @@
 <template>
-                    <v-card class="pa-5 text-center" height="100%">
-                        <v-card-title>
-                            <h1>Join in the Learning</h1>
-                        </v-card-title>
-                        <v-card
-                            :loading="loading"
-                            class="mx-auto my-12"
-                            max-width="420"
-                        >
-                            <template slot="progress">
-                            <v-progress-linear
-                                color="deep-purple"
-                                height="10"
-                                indeterminate
-                            ></v-progress-linear>
-                            </template>
+  <v-carousel hide-delimiters height="100%">
+    <v-carousel-item v-for="(card, i) in cardList" :key="i">
+      <v-card :loading="loading" class="mx-auto my-12" max-width="420">
+        <template slot="progress">
+          <v-progress-linear
+            color="deep-purple"
+            height="10"
+            indeterminate
+          ></v-progress-linear>
+        </template>
 
-                            <v-img
-                            max-height="420"
-                            class="mx-auto"
-                            width="61.8%"
-                            src="https://nftw.mypinata.cloud/ipfs/Qmd2vqZgoP2h7J3EnxSa7oUVfDk9RfLd6TSBo1nhmV9yLQ"
-                            ></v-img>
+        <v-card-title>
+          {{ card.title }}
+          <v-spacer></v-spacer>
+          <v-btn :href="card.webLink" color="orange" dark target="_blank"
+            >Check it out</v-btn
+          >
+        </v-card-title>
+        <v-card-subtitle class="mt-3">{{ card.description }}</v-card-subtitle>
+        <v-img
+          class="mx-auto"
+          width="61.8%"
+          aspect-ratio="1"
+          contain
+          :src="card.imageUrl"
+        ></v-img>
 
-                            <v-card-title>New FronTier Works</v-card-title>
+        <v-card-text>
+          <h3>{{ card.questionText }}</h3>
+        </v-card-text>
 
-                            <v-card-text>
-                            <div>What in the world does NFTW mean?</div>
-                            </v-card-text>
+        <v-divider class="mx-4"></v-divider>
 
-                            <v-divider class="mx-4"></v-divider>
+        <v-card-title>Choose Your Answer</v-card-title>
 
-                            <v-card-title>Choose Your Answer</v-card-title>
+        <v-card-text>
+          <v-chip-group
+            v-model="selection"
+            active-class="deep-purple accent-4 white--text"
+            column
+          >
+            <v-chip
+              class="mx-auto"
+              v-for="(answer, i) in card.answerArray"
+              :key="i"
+            >
+              {{ answer }}
+            </v-chip>
+          </v-chip-group>
+        </v-card-text>
 
-                            <v-card-text>
-                            <v-chip-group
-                                v-model="selection"
-                                active-class="deep-purple accent-4 white--text"
-                                column
-                            >
-                                <v-chip>New FronTier Works</v-chip>
-
-                                <v-chip>Naked For The Win</v-chip>
-
-                                <v-chip>Not For The Whimpy</v-chip>
-
-                                <v-chip>No Free Time Wallace</v-chip>
-                            </v-chip-group>
-                            </v-card-text>
-
-                            <v-card-actions>
-                            <v-btn
-                                color="deep-purple lighten-2"
-                                text
-                                @click="reserve"
-                            >
-                                Submit
-                            </v-btn>
-                            </v-card-actions>
-                        </v-card>
-                    </v-card>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn color="deep-purple lighten-2" text @click="reserve">
+            Submit
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-carousel-item>
+  </v-carousel>
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      loading: false,
-      selection: 1,
-    }),
+import cardList from "../data/card.json";
 
-    methods: {
-      reserve () {
-        this.loading = true
+export default {
+  data: () => ({
+    loading: false,
+    selection: 1,
+  }),
 
-        setTimeout(() => (this.loading = false), 2000)
-      },
+  methods: {
+    reserve() {
+      this.loading = true;
+
+      setTimeout(() => (this.loading = false), 2000);
     },
-  }
+  },
+  computed: {
+    cardList() {
+      return cardList;
+    },
+  },
+};
 </script>

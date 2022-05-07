@@ -1,0 +1,30 @@
+[
+    {
+        "cardID": "00001",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmQP7u2sbunSyeNUHkeVAv7qPskERjNharA7szRNFHiEm7",
+        "title": "New FronTier Works",
+        "description": "New FronTier Works is a unique boutique for developing advanced NFT projects.",
+        "webLink": "https://NewFronTierWorks.com",
+        "questionText": "What does NFTW mean?",
+        "answerArray": [
+            "New FronTier Works",
+            "Naked For The Win",
+            "Not For The Whimpy",
+            "No Free Time Wallace"
+        ]
+    },
+    {
+        "cardID": "00002",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmY8RG6rm5hkRNBbcfBxeWCJCsBD8WtZsAuxhcKcBHsEbj",
+        "title": "420Pro.World",
+        "description": "Using NFTs to unlock the wisdom of the Cannabis Legends.",
+        "webLink": "https://420Pro.World",
+        "questionText": "What can an NFT be used for?",
+        "answerArray": [
+            "Decrypting Content",
+            "Making Tons of Money",
+            "Accessing Websites",
+            "Getting Into an Event"
+        ]
+    }
+]
