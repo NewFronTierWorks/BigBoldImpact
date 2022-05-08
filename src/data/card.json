@@ -26,5 +26,285 @@
             "Accessing Websites",
             "Getting Into an Event"
         ]
+    },
+    {
+        "cardID": "00003",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Ar-weave.png",
+        "title": "AR-Weave",
+        "description": "Store data, permanently.",
+        "webLink": "https://www.arweave.org/",
+        "questionText": "How do you store data permanently?",
+        "answerArray": [
+            "Physical Hard Drives",
+            "Cloud Storage",
+            "Carve In Stone",
+            "Perpetual Endowments"
+        ]
+    },
+    {
+        "cardID": "00004",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Cardano.png",
+        "title": "Cardano",
+        "description": "Making The World Work Better For All",
+        "webLink": "https://cardano.org/",
+        "questionText": "Which form of consensus?",
+        "answerArray": [
+            "Proof of Work",
+            "Proof of Stake",
+            "Proof of Identity",
+            "Proof of Authority"
+        ]
+    },
+    {
+        "cardID": "00005",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Coinbase.png",
+        "title": "Coinbase",
+        "description": "The future of money is here",
+        "webLink": "https://coinbase.com/join/crumb_8",
+        "questionText": "Where do you store your tokens?",
+        "answerArray": [
+            "Hot Wallet",
+            "Cold Wallet",
+            "Decentralized Exchange",
+            "Centralized Exchange"
+        ]
+    },
+    {
+        "cardID": "00006",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Ethereum.png",
+        "title": "Ethereum",
+        "description": "Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications.",
+        "webLink": "https://ethereum.org/",
+        "questionText": "Which smart contract programming language?",
+        "answerArray": [
+            "Solidity",
+            "Vyper",
+            "Rust",
+            "Plutus"
+        ]
+    },
+    {
+        "cardID": "00007",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/IPFS.png",
+        "title": "IPFS - InterPlanetary File System",
+        "description": "A peer-to-peer hypermedia protocol designed to preserve and grow humanity's knowledge by making the web upgradeable, resilient, and more open.",
+        "webLink": "https://ipfs.io/",
+        "questionText": "Which L1 Chain secures the Storage?",
+        "answerArray": [
+            "Ethereum",
+            "Cardano",
+            "Solana",
+            "None"
+        ]
+    },
+    {
+        "cardID": "00008",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Ledger.png",
+        "title": "Ledger",
+        "description": "IT'S YOUR MONEY. OWN IT.",
+        "webLink": "https://www.ledger.com/",
+        "questionText": "Where are your Seeds?",
+        "answerArray": [
+            "In a Safe",
+            "Cell Phone",
+            "Hardware Wallet",
+            "Napkin"
+        ]
+    },
+    {
+        "cardID": "00009",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Metamask.png",
+        "title": "Metamask",
+        "description": "A crypto wallet & gateway to blockchain apps",
+        "webLink": "https://metamask.io/",
+        "questionText": "Where do you Crypto?",
+        "answerArray": [
+            "Desktop",
+            "Phone",
+            "Web Browser",
+            "Watch"
+        ]
+    },
+    {
+        "cardID": "00010",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/NFT-Storage.png",
+        "title": "NFT-Storage",
+        "description": "Free Storage for NFTs. Free decentralized storage and bandwidth for NFTs on IPFS and Filecoin.",
+        "webLink": "https://nft.storage/",
+        "questionText": "How much would you pay to store a picture forever?",
+        "answerArray": [
+            "$10 USD",
+            "0.0001 ETH",
+            "Facebook Rights",
+            "A Piece of Your Soul"
+        ]
+    },
+    {
+        "cardID": "00011",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Opensea.png",
+        "title": "Opensea",
+        "description": "Discover, collect, and sell extraordinary NFTs OpenSea is the world's first and largest NFT marketplace",
+        "webLink": "https://opensea.io/",
+        "questionText": "How do you sell your NFTs?",
+        "answerArray": [
+            "Centralized Marketplace",
+            "Decentralized Marketplace",
+            "Only In Person",
+            "Art Galleries"
+        ]
+    },
+    {
+        "cardID": "00012",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Open-Zepellin.png",
+        "title": "Open Zepellin",
+        "description": "The standard for secure blockchain applications. OpenZeppelin provides security products to build, automate, and operate decentralized applications. We also protect leading organizations by performing security audits on their systems and products.",
+        "webLink": "https://openzeppelin.com/",
+        "questionText": "What can an NFT be used for?",
+        "answerArray": [
+            "Decrypting Content",
+            "Making Tons of Money",
+            "Accessing Websites",
+            "Getting Into an Event"
+        ]
+    },
+    {
+        "cardID": "00013",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Phantom.png",
+        "title": "Phantom",
+        "description": "A friendly crypto wallet. Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain.",
+        "webLink": "https://phantom.app/",
+        "questionText": "What does NFTW mean?",
+        "answerArray": [
+            "New FronTier Works",
+            "Naked For The Win",
+            "Not For The Whimpy",
+            "No Free Time Wallace"
+        ]
+    },
+    {
+        "cardID": "00014",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Pinata.png",
+        "title": "Pinata",
+        "description": "Your Home For NFT Media. The cloud wasn't built for this. Pinata was. Managing your NFT media just got easier.",
+        "webLink": "https://www.pinata.cloud/",
+        "questionText": "What can an NFT be used for?",
+        "answerArray": [
+            "Decrypting Content",
+            "Making Tons of Money",
+            "Accessing Websites",
+            "Getting Into an Event"
+        ]
+    },
+    {
+        "cardID": "00015",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Plutus.png",
+        "title": "Plutus Playground",
+        "description": "The Plutus Platform is the smart contract platform for Cardano. Plutus contracts consist of parts that run on the blockchain (on-chain code) and parts that run on a user’s machine (off-chain or client code).",
+        "webLink": "https://playground.plutus.iohkdev.io/",
+        "questionText": "What does NFTW mean?",
+        "answerArray": [
+            "New FronTier Works",
+            "Naked For The Win",
+            "Not For The Whimpy",
+            "No Free Time Wallace"
+        ]
+    },
+    {
+        "cardID": "00016",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Polygon.png",
+        "title": "Polygon",
+        "description": "Bringing the world to Ethereum. Polygon believes in Web3 for all. Polygon is a decentralised Ethereum scaling platform that enables developers to build scalable user-friendly dApps with low transaction fees without ever sacrificing on security.",
+        "webLink": "https://polygon.technology/",
+        "questionText": "What can an NFT be used for?",
+        "answerArray": [
+            "Decrypting Content",
+            "Making Tons of Money",
+            "Accessing Websites",
+            "Getting Into an Event"
+        ]
+    },
+    {
+        "cardID": "00017",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Remix.png",
+        "title": "Remix IDE",
+        "description": "Remix IDE is an open source web and desktop application. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. Remix is used for the entire journey of contract development as well as act as a playground for learning and teaching Ethereum.",
+        "webLink": "https://remix.ethereum.org/",
+        "questionText": "What does NFTW mean?",
+        "answerArray": [
+            "New FronTier Works",
+            "Naked For The Win",
+            "Not For The Whimpy",
+            "No Free Time Wallace"
+        ]
+    },
+    {
+        "cardID": "00018",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Rinkeby.png",
+        "title": "Rinkeby",
+        "description": "Ethereum's Testnet",
+        "webLink": "https://www.rinkeby.io/",
+        "questionText": "What can an NFT be used for?",
+        "answerArray": [
+            "Decrypting Content",
+            "Making Tons of Money",
+            "Accessing Websites",
+            "Getting Into an Event"
+        ]
+    },
+    {
+        "cardID": "00019",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Solana.png",
+        "title": "Solana",
+        "description": "Powerful for developers. Fast for everyone.",
+        "webLink": "https://solana.com/",
+        "questionText": "What does NFTW mean?",
+        "answerArray": [
+            "New FronTier Works",
+            "Naked For The Win",
+            "Not For The Whimpy",
+            "No Free Time Wallace"
+        ]
+    },
+    {
+        "cardID": "00020",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Solsea.png",
+        "title": "Solsea",
+        "description": "The Open NFT Marketplace on Solana. The first NFT marketplace that enables creators to choose and embed licenses when they mint NFTs. Creators know what they are selling, collectors know what they are buying. Join the revolution.",
+        "webLink": "https://solsea.io/",
+        "questionText": "What can an NFT be used for?",
+        "answerArray": [
+            "Decrypting Content",
+            "Making Tons of Money",
+            "Accessing Websites",
+            "Getting Into an Event"
+        ]
+    },
+    {
+        "cardID": "00021",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Truffle.png",
+        "title": "Truffle Suite",
+        "description": "Sweet Tools for Smart Contracts. The Truffle Suite gets developers from idea to dapp as comfortably as possible.",
+        "webLink": "https://trufflesuite.com/",
+        "questionText": "What does NFTW mean?",
+        "answerArray": [
+            "New FronTier Works",
+            "Naked For The Win",
+            "Not For The Whimpy",
+            "No Free Time Wallace"
+        ]
+    },
+    {
+        "cardID": "00022",
+        "imageUrl": "https://nftw.mypinata.cloud/ipfs/QmYp26jzNBWbMLXe3tfQp2dj9APKX8p7qNVN7zYqdYyKks/Yoroi.png",
+        "title": "Yoroi",
+        "description": "Your gateway to the financial world. Yoroi light wallet for Cardano & Ergo",
+        "webLink": "https://yoroi-wallet.com/#/",
+        "questionText": "What can an NFT be used for?",
+        "answerArray": [
+            "Decrypting Content",
+            "Making Tons of Money",
+            "Accessing Websites",
+            "Getting Into an Event"
+        ]
     }
 ]

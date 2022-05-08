@@ -18,13 +18,17 @@
           >
         </v-card-title>
         <v-card-subtitle class="mt-3">{{ card.description }}</v-card-subtitle>
+        <a :href="card.webLink" target="_blank">
+
         <v-img
           class="mx-auto"
           width="61.8%"
           aspect-ratio="1"
           contain
           :src="card.imageUrl"
+          :alt="card.title"
         ></v-img>
+        </a>
 
         <v-card-text>
           <h3>{{ card.questionText }}</h3>
@@ -32,7 +36,6 @@
 
         <v-divider class="mx-4"></v-divider>
 
-        <v-card-title>Choose Your Answer</v-card-title>
 
         <v-card-text>
           <v-chip-group
@@ -50,12 +53,6 @@
           </v-chip-group>
         </v-card-text>
 
-        <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn color="deep-purple lighten-2" text @click="reserve">
-            Submit
-          </v-btn>
-        </v-card-actions>
       </v-card>
     </v-carousel-item>
   </v-carousel>
