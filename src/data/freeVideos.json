@@ -1,17 +1,17 @@
 [
     {
-        "videoCID": "QmcVrzFSBMfs3TLZRFHgo7UPvXefhpKV3vhfXcgZeKrfDf",
-        "videoTitle": "NFTs Are More Than Just Expensive JPGs, or Are They?",
-        "episode": "001",
-        "srcUrl": "https://nftw.mypinata.cloud/ipfs/QmcVrzFSBMfs3TLZRFHgo7UPvXefhpKV3vhfXcgZeKrfDf",
-        "type": "video/mp4",
-        "encrypted": false
-    },
-    {
         "videoCID": "QmUdyr77mVfkKrp6Dur7gRnqKzyNowwepzoVPKY6A7GScX",
         "videoTitle": "NFTs, Serious or Fun?",
         "episode": "002",
         "srcUrl": "https://nftw.mypinata.cloud/ipfs/QmUdyr77mVfkKrp6Dur7gRnqKzyNowwepzoVPKY6A7GScX",
+        "type": "video/mp4",
+        "encrypted": false
+    },
+    {
+        "videoCID": "QmcVrzFSBMfs3TLZRFHgo7UPvXefhpKV3vhfXcgZeKrfDf",
+        "videoTitle": "NFTs Are More Than Just Expensive JPGs, or Are They?",
+        "episode": "001",
+        "srcUrl": "https://nftw.mypinata.cloud/ipfs/QmcVrzFSBMfs3TLZRFHgo7UPvXefhpKV3vhfXcgZeKrfDf",
         "type": "video/mp4",
         "encrypted": false
     }

@@ -3,22 +3,7 @@
     <v-card class="pa-5 text-center" height="100%">
         <v-card-title>
             <h1>Episode {{currentVideo.episode}}</h1>
-        </v-card-title>
-        <v-card-subtitle>
-            <br>
-            <h2>{{videoTitle}}</h2>
-        </v-card-subtitle>
-        <v-card-text>
-            <v-card dark>
-
-                <video width="100%" height="100%" controls>
-                    <source :src="'https://nftw.mypinata.cloud/ipfs/'+currentVideo.videoCID" :type="currentVideo.type">
-                    Your browser does not support the video tag.
-                </video>
-            </v-card>
-
-        </v-card-text>
-        <!-- <v-card-actions>
+            <v-spacer></v-spacer>
             <v-btn 
                     v-for="(video, i) in videoList" 
                     :key="video.videoCID" 
@@ -30,7 +15,19 @@
                     >
                     {{video.episode}}
                     </v-btn>
-        </v-card-actions> -->
+        </v-card-title>
+        <v-card-subtitle>
+            <br>
+            <h2>{{currentVideo.videoTitle}}</h2>
+        </v-card-subtitle>
+        <v-card-text>
+
+                <video width="90%" height="100%" controls :key="currentVideo.videoCID">
+                    <source :src="currentVideo.srcUrl" :type="currentVideo.type">
+                    Your browser does not support the video tag.
+                </video>
+
+        </v-card-text>
     </v-card>
 
 </template>

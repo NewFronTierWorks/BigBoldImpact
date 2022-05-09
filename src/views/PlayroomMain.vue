@@ -14,7 +14,7 @@
                  
                 </v-col>
                 <v-col cols="12" lg="4" md="12" sm="12">
-                    <v-card class="pa-3">
+                    <v-card class="pa-3" height="100%">
                         <h1>Build an NFT through Learning</h1>
                     <card-stream></card-stream>
 
