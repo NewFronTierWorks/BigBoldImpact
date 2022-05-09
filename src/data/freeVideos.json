@@ -1,5 +1,13 @@
 [
     {
+        "videoCID": "QmQMcAfNcWitnmv2TebwX9VVgmTNgVEwwjv2HfhDrE1ZkA",
+        "videoTitle": "Getting Meta",
+        "episode": "003",
+        "srcUrl": "https://nftw.mypinata.cloud/ipfs/QmQMcAfNcWitnmv2TebwX9VVgmTNgVEwwjv2HfhDrE1ZkA",
+        "type": "video/mp4",
+        "encrypted": false
+    },
+    {
         "videoCID": "QmUdyr77mVfkKrp6Dur7gRnqKzyNowwepzoVPKY6A7GScX",
         "videoTitle": "NFTs, Serious or Fun?",
         "episode": "002",
