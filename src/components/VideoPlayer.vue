@@ -22,7 +22,7 @@
         </v-card-subtitle>
         <v-card-text>
 
-                <video width="90%" height="100%" controls :key="currentVideo.videoCID">
+                <video width="90%" height="100%" controls :key="currentVideo.videoCID" poster="https://nftw.mypinata.cloud/ipfs/QmNw1Ww7PSSViKBxadXYvF6TNaL7FB4eu41WWJbUpyT62W">
                     <source :src="currentVideo.srcUrl" :type="currentVideo.type">
                     Your browser does not support the video tag.
                 </video>
