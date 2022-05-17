@@ -20,7 +20,7 @@
 
       </div>
       <v-spacer></v-spacer>
-      <v-btn color="pink" to="/playroom">New to NFTs?<v-icon class="ml-2">mdi-head-lightbulb-outline</v-icon></v-btn>
+      <v-btn color="pink" to="/playroom">Get Started Here<v-icon class="ml-2">mdi-head-lightbulb-outline</v-icon></v-btn>
 
       <v-spacer></v-spacer>
 

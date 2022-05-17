@@ -1,5 +1,13 @@
 [
     {
+        "videoCID": "QmUMuMLbGKB698GRP5pwynXDFv2BJd1CnKYWWNYMsqS8t4",
+        "videoTitle": "Opening the Door with NFTs",
+        "episode": "004",
+        "srcUrl": "https://nftw.mypinata.cloud/ipfs/QmUMuMLbGKB698GRP5pwynXDFv2BJd1CnKYWWNYMsqS8t4",
+        "type": "video/mp4",
+        "encrypted": false
+    },
+    {
         "videoCID": "QmQMcAfNcWitnmv2TebwX9VVgmTNgVEwwjv2HfhDrE1ZkA",
         "videoTitle": "Getting Meta",
         "episode": "003",

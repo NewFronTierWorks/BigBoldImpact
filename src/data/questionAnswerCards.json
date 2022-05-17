@@ -1,0 +1,102 @@
+[
+    {
+        "cardID": "001",
+        "questionText": "What does NFTW mean?",
+        "answerArray": [
+            "New FronTier Works",
+            "Naked For The Win",
+            "Not For The Whimpy",
+            "Non Forgettable Truth Work"
+        ]
+    },
+    {
+        "cardID": "002",
+        "questionText": "What can an NFT be used for?",
+        "answerArray": [
+            "Decrypting Content",
+            "Making Tons of Money",
+            "Accessing Websites",
+            "Getting Into an Event"
+        ]
+    },
+    {
+        "cardID": "003",
+        "questionText": "How do you store data permanently?",
+        "answerArray": [
+            "Physical Hard Drives",
+            "Cloud Storage",
+            "Carve In Stone",
+            "Perpetual Endowments"
+        ]
+    },
+    {
+        "cardID": "004",
+        "questionText": "Which form of consensus do you identify with?",
+        "answerArray": [
+            "Proof of Work",
+            "Proof of Stake",
+            "Proof of Identity",
+            "Proof of Authority"
+        ]
+    },
+    {
+        "cardID": "005",
+        "questionText": "Where do you store your tokens?",
+        "answerArray": [
+            "Hot Wallet",
+            "Cold Wallet",
+            "Decentralized Exchange",
+            "Centralized Exchange"
+        ]
+    },
+    {
+        "cardID": "006",
+        "questionText": "Which smart contract programming language do you prefer?",
+        "answerArray": [
+            "Solidity",
+            "Vyper",
+            "Rust",
+            "Plutus"
+        ]
+    },
+    {
+        "cardID": "007",
+        "questionText": "Which L1 Chain secures your Storage?",
+        "answerArray": [
+            "Ethereum",
+            "Cardano",
+            "Solana",
+            "None"
+        ]
+    },
+    {
+        "cardID": "008",
+        "questionText": "Where are your Seeds?",
+        "answerArray": [
+            "In a Safe",
+            "Cell Phone",
+            "Hardware Wallet",
+            "Napkin"
+        ]
+    },
+    {
+        "cardID": "009",
+        "questionText": "Where do you Crypto?",
+        "answerArray": [
+            "Desktop",
+            "Phone",
+            "Web Browser",
+            "Watch"
+        ]
+    },
+    {
+        "cardID": "010",
+        "questionText": "How much would you pay to store a picture forever?",
+        "answerArray": [
+            "$10 USD",
+            "0.0001 ETH",
+            "Facebook Rights",
+            "A Piece of Your Soul"
+        ]
+    }
+]

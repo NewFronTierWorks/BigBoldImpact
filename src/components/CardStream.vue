@@ -1,7 +1,7 @@
 <template>
   <v-carousel hide-delimiters height="100%">
     <v-carousel-item v-for="(card, i) in cardList" :key="i">
-      <v-card :loading="loading" class="mx-auto my-12" max-width="420">
+      <v-card :loading="loading" class="mx-auto pa-3 my-12" max-width="420">
         <template slot="progress">
           <v-progress-linear
             color="deep-purple"
@@ -11,17 +11,16 @@
         </template>
 
         <v-card-title>
-          {{ card.title }}
+          <h2>Useful Resource</h2>
           <v-spacer></v-spacer>
           <v-btn :href="card.webLink" color="orange" dark target="_blank"
-            >Check it out</v-btn
+            >Visit Them</v-btn
           >
         </v-card-title>
-        <v-card-subtitle class="mt-3">{{ card.description }}</v-card-subtitle>
         <a :href="card.webLink" target="_blank">
 
         <v-img
-          class="mx-auto"
+          class="mx-auto my-5"
           width="61.8%"
           aspect-ratio="1"
           contain
@@ -30,28 +29,8 @@
         ></v-img>
         </a>
 
-        <v-card-text>
-          <h3>{{ card.questionText }}</h3>
-        </v-card-text>
-
-        <v-divider class="mx-4"></v-divider>
-
-
-        <v-card-text>
-          <v-chip-group
-            v-model="selection"
-            active-class="deep-purple accent-4 white--text"
-            column
-          >
-            <v-chip
-              class="mx-auto"
-              v-for="(answer, i) in card.answerArray"
-              :key="i"
-            >
-              {{ answer }}
-            </v-chip>
-          </v-chip-group>
-        </v-card-text>
+          <h1>{{ card.title }}</h1>
+        <v-card-text class="mt-3"><h3>{{ card.description }}</h3></v-card-text>
 
       </v-card>
     </v-carousel-item>
@@ -59,7 +38,7 @@
 </template>
 
 <script>
-import cardList from "../data/card.json";
+import cardList from "../data/resourceCards.json";
 
 export default {
   data: () => ({

@@ -4,17 +4,6 @@
         <v-card-title>
             <h1>Episode {{currentVideo.episode}}</h1>
             <v-spacer></v-spacer>
-            <v-btn 
-                    v-for="(video, i) in videoList" 
-                    :key="video.videoCID" 
-                    color="deep-purple" 
-                    class="mx-3"
-                    x-large
-                    dark
-                    @click="currentVideoIndex = i"
-                    >
-                    {{video.episode}}
-                    </v-btn>
         </v-card-title>
         <v-card-subtitle>
             <br>
@@ -28,6 +17,23 @@
                 </video>
 
         </v-card-text>
+        <v-card-actions>
+          <h2>
+          Episodes:
+          </h2>
+            <v-btn 
+                    v-for="(video, i) in videoList" 
+                    :key="video.videoCID" 
+                    color="deep-purple" 
+                    class="mx-auto"
+                    x-large
+                    dark
+                    @click="currentVideoIndex = i"
+                    >
+                    {{video.episode}}
+                    </v-btn>
+
+        </v-card-actions>
     </v-card>
 
 </template>
