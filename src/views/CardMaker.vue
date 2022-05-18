@@ -2,7 +2,7 @@
   <div class="Card-Maker">
     <v-card class="pa-3">
         <h1>Card Maker</h1>
-        <canvas id="canvas" width="600" height="600"></canvas>
+        <canvas id="canvas" width="1000" height="1000"></canvas>
     </v-card>
     <v-card class="pa-3">
     <input type="text" v-model="exampleContent" />
@@ -23,7 +23,7 @@ export default {
     'exampleContent': 'Just Getting Started'
   }),
   methods: {
-    updateCanvas: function (){
+    updateCanvas () {
       var canvas = document.getElementById('canvas'),
           ctx = canvas.getContext('2d');
       ctx.clearRect(0,0,canvas.width,canvas.height);
@@ -32,12 +32,13 @@ export default {
       ctx.fillText(this.exampleContent,50,100);
       ctx.fillStyle = "white";
       ctx.fillText("BIG BOLD IMPACT - NFTW",50,200);
+      ctx.fillStyle = "black";
+      ctx.fillText("Official NFT",50,300);
     },
     SaveImage () {
         var canvas = document.getElementById('canvas');
         var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");  // here is the most important part because if you dont replace you will get a DOM 18 exception.
         console.log(image)
-        window.location.download="Image.png"
         window.location.href=image; // it will save locally
     }
   },
