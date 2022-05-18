@@ -30,6 +30,7 @@ export default {
       ctx.fillStyle = "black";
       ctx.font="30px Impact";
       ctx.fillText(this.exampleContent,50,100);
+      ctx.fillStyle = "white";
       ctx.fillText("BIG BOLD IMPACT - NFTW",50,200);
     },
     SaveImage () {
