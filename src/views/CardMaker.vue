@@ -32,8 +32,8 @@ export default {
     data: () => ({
     customMessage: 'Just Getting Started',
     count: 100,
-    x: 100,
-    y: 100,
+    x: 400,
+    y: 400,
   }),
   methods: {
     updateCanvas () {
@@ -44,15 +44,12 @@ export default {
       ctx.font="30px Impact";
       ctx.fillText(this.customMessage,50,100);
       ctx.fillStyle = "white";
-      ctx.fillText("BIG BOLD IMPACT - NFTW",50,200);
+      ctx.fillText("BIG BOLD IMPACT",50,200);
       ctx.fillStyle = "black";
-      ctx.fillText("Official NFT",50,300);
+      ctx.fillText("Official NFTW Generated",50,300);
         ctx.fillStyle = "yellow"
         ctx.lineWidth = 5;
         ctx.strokeStyle = "yellow"
-      ctx.beginPath();
-        ctx.arc(100, 100, 100, 0, 2 * Math.PI);
-        ctx.stroke();
     },
     saveImage () {
         var canvas = document.getElementById('canvas');
